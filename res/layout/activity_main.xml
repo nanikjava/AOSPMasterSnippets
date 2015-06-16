@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <com.android.ex.chips.RecipientEditTextView
+        android:id="@+id/email_retv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_addresses"
+        android:minHeight="58dp" />
+
+    <com.android.ex.chips.RecipientEditTextView
+        android:id="@+id/phone_retv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone_numbers"
+        android:minHeight="58dp" />
+
+    <com.android.ex.chips.CircularImageView
+        android:id="@+id/circular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
